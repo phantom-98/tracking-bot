@@ -4,8 +4,7 @@ import TelegramBot from 'node-telegram-bot-api';
 import { PublicKey, Connection, clusterApiUrl } from "@solana/web3.js";
 import WholeFilter from './Filter_Whole.js';
 
-const telegramToken = '7589474786:AAHxpC31IRiZqDnqSQ2H7SRaF4AK0YFeLhc';
-// const telegramToken = '7922615303:AAGFEkTyapyTP_sxz-8lXsTISoL7LMV_qrE';
+const telegramToken = 'your-token';
 
 const bot = new TelegramBot(telegramToken, { polling: true });
 
